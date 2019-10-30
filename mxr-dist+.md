@@ -1,4 +1,5 @@
-## Resistors
+### Resistors
+|---|---|
 | R1 | 4k7 |
 | R2 | 1M |
 | R3 | 1M |
@@ -8,7 +9,8 @@
 | R7 | 1M |
 | R8 | 10k |
 
-## Capacitors
+### Capacitors
+|---|---|
 | C1 | 47u +/- |
 | C2 | 1u |
 | C3 | 1n |
@@ -17,14 +19,18 @@
 | C6 | 1u |
 | C7 | 1u |
 
-## Diodes
+### Diodes
+|---|---|
 | D1 | 1N4002 |
 | D2 | 1n34a |
 | D3 | 1n34a |
 
-## ICs
+### ICs
+|---|---|
 | U1 | LM741 |
 
+### Potentiometers
+|---|---|
 | Vol1 | 10k |
 
 | J1 | 9V |
