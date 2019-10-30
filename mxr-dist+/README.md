@@ -41,11 +41,15 @@ See Modifications section for variations.
 
 | Potentiometer | Value |
 |---|---|
-| Vol1 | 10k |
+| Volume | 10kΩ B |
+| Distortion* | 1MΩ B |
+
+* Distortion potentiometer will need to be wired off-board. Connect lugs 1 and 2, and wire this connection to `DIST1`. Connect lug 3 to `DIST2`. 
 
 ### Modifications
 1) Decrease the noise floor: excluding `D1`, `C1`, `C2`, and `R1-R3`, increasing all capacitor values by 10x and reducing all resistor values by 10x (e.g. 470nF --> 4u7 and 1MΩ --> 100kΩ)
-2) Diode modifications: changing D2/D3 will yield different pedal characteristics. Socket the diodes to test new variations. Imbalanced diodes (two diodes in series on one side) will also change the clipping-style.
+2) Diode modifications: changing `D2`/`D3` will yield different pedal characteristics. Socket the diodes to test new variations. Imbalanced diodes (two diodes in series on one side) will also change the clipping-style.
+3) Distortion input modification: changing what resistor/resistance `DIST1` and `DIST2` are connected to is possible. Any one of LFO/LDR pair, an envelope detector, or an expression pedal can be used outside of a basic potentiometer.
 
 ## Build Order
 1) Resistors
