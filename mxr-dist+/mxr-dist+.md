@@ -1,4 +1,4 @@
-### Overview
+## Overview
 The MXR Dist+ is a simple distortion circuit, taking advantage of an inverting op-amp to maximize gain. As the distortion potentiometer is turned up, the feedback resistance decreases and gain increases. Changing the resistance also changes the pole of the high-pass filter created at the inverting input.
 
 See Modifications section for variations.
@@ -45,7 +45,7 @@ See Modifications section for variations.
 1) Decrease the noise floor: excluding `D1`, `C1`, `C2`, and `R1-R3`, increasing all capacitor values by 10x and reducing all resistor values by 10x (e.g. 470nF --> 4u7 and 1MΩ --> 100kΩ)
 2) Diode modifications: changing D2/D3 will yield different pedal characteristics. Socket the diodes to test new variations. Imbalanced diodes (two diodes in series on one side) will also change the clipping-style.
 
-### Build Order
+## Build Order
 1) Resistors
     * Be sure to double check values! It can be easy to mistake a 10k for 1k, for example. 
 2) Capacitors
@@ -61,11 +61,11 @@ See Modifications section for variations.
 ### Boxing
 The PCB is fairly small, and should fit in most enclosures. The Distortion potentiometer (wired to `DIST1`/`DIST2`) will need to be wired in, as well as the LED (unless native position is preferred, which is unlikely). 
 
-### Schematic
+## Schematic
 Swamp Witch Dist+ Schematic
 ![mxr dist+ schematic](mxr-dist+.schematic.png)
 
-### Sources
+## Sources
 * [Electrosmash MXR Dist+ Analysis](https://www.electrosmash.com/mxr-distortion-plus-analysis)
 * [Coda Effects 3PDT Footswitch Wiring](https://www.coda-effects.com/2015/03/3pdt-and-true-bypass-wiring.html)
 * [MadBean Pedals 3PDT Footswitch Wiring](http://www.madbeanpedals.com/tutorials/downloads/MBP_FootswitchWiring.pdf)
