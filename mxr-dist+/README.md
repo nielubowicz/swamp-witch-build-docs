@@ -41,8 +41,8 @@ See Modifications section for variations.
 
 | Potentiometer | Value |
 |---|---|
-| Volume | 10kΩ B |
-| Distortion* | 1MΩ B |
+| Volume | 10kΩ A |
+| Distortion* | 1MΩ C |
 
 * Distortion potentiometer will need to be wired off-board. Connect lugs 1 and 2 together, and wire this connection to `DIST1`. Connect lug 3 to `DIST2`. 
 
