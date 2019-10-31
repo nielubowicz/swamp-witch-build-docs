@@ -54,6 +54,7 @@ See Modifications section for variations.
 ## Build Order
 1) Resistors
     * Be sure to double check values! It can be easy to mistake a 10k for 1k, for example. 
+    * You can change the brightness of your LED by changing the value of `R1` (e.g. 2kΩ for a super bright LED, 10kΩ for a dimmer one)
 2) Capacitors
     * Ensure correct polarity of eletrolytic capacitors (C1). The long leg (anode) is the square pad (pin 1), and should match the print on the board.
 3) Diodes
@@ -62,7 +63,11 @@ See Modifications section for variations.
 5) Potentiometers
     * Drill the enclosure and fit these first before installing into the PCB.
 6) LED
-    * Ensure correct polarity. The longer leg (anode) is the square pad (pin 1), and the flat side should match the print on the board. Especially when wiring the LED off-board, double-check your polarity. I use different colored wires, or markings, to help differentiate. 
+    * Ensure correct polarity. The longer leg (anode) is the square pad (pin 1), and the flat side should match the print on the board. Especially when wiring the LED off-board, double-check your polarity. I use different colored wires, or markings, to help differentiate.
+7) Jacks
+    * Wire up the input, output and power jacks. I usually measure these wires with the components mounted in the enclosure. 
+8) Switch
+    * Wire up the 3PDT footswitch to the jacks and PCB. See [Sources](Sources) for resources on 3PDT wiring diagrams.
   
 ### Boxing
 The PCB is fairly small, and should fit in most enclosures. The Distortion potentiometer (wired to `DIST1`/`DIST2`) will need to be wired in, as well as the LED (unless native position is preferred, which is unlikely). 
