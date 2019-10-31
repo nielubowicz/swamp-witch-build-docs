@@ -44,7 +44,7 @@ See Modifications section for variations.
 | Volume | 10kΩ B |
 | Distortion* | 1MΩ B |
 
-* Distortion potentiometer will need to be wired off-board. Connect lugs 1 and 2, and wire this connection to `DIST1`. Connect lug 3 to `DIST2`. 
+* Distortion potentiometer will need to be wired off-board. Connect lugs 1 and 2 together, and wire this connection to `DIST1`. Connect lug 3 to `DIST2`. 
 
 ### Modifications
 1) Decrease the noise floor: excluding `D1`, `C1`, `C2`, and `R1-R3`, increasing all capacitor values by 10x and reducing all resistor values by 10x (e.g. 470nF --> 4u7 and 1MΩ --> 100kΩ)
@@ -67,7 +67,7 @@ See Modifications section for variations.
 7) Jacks
     * Wire up the input, output and power jacks. I usually measure these wires with the components mounted in the enclosure. 
 8) Switch
-    * Wire up the 3PDT footswitch to the jacks and PCB. See [Sources](Sources) for resources on 3PDT wiring diagrams.
+    * Wire up the 3PDT footswitch to the jacks and PCB. See [Sources](#sources) for resources on 3PDT wiring diagrams.
   
 ### Boxing
 The PCB is fairly small, and should fit in most enclosures. The Distortion potentiometer (wired to `DIST1`/`DIST2`) will need to be wired in, as well as the LED (unless native position is preferred, which is unlikely). 
