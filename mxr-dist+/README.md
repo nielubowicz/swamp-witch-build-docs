@@ -1,7 +1,7 @@
 ![mxr dist+ PCB](mxr-dist+.board.png)
 
 ## Overview
-The MXR Dist+ is a simple distortion circuit, taking advantage of an inverting op-amp to maximize gain. As the distortion potentiometer is turned up, the feedback resistance decreases and gain increases. Changing the resistance also changes the pole of the high-pass filter created at the inverting input.
+The MXR Dist+ is a simple distortion circuit, taking advantage of an inverting op-amp to maximize gain. As the distortion potentiometer is turned up, the feedback resistance decreases and gain increases. Changing the resistance also changes the pole of the high-pass filter created at the inverting input. Refer to the [schematic](#schematic) if you get stuck, or check the [sources](#sources) section for more reading about the MXR Dist+ circuit and analysis.
 
 See Modifications section for variations.
 
