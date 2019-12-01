@@ -28,11 +28,7 @@ Controls the minimum delay time - the bias of the LFO.
 ### Depth
 Controls the maximum delay time - the amplitude of the LFO. At 0 depth, there is no change between minimum and maximum peaks during the LFO-period.
 
----
-
 > **NOTE**: `Offset` and `Depth` are interactive. They can be thought of as floor and ceiling for LED-brightness for the LFO, as well. By raising the offset, the lower limit of the "off" section of the wave can be raised. By lowering the depth, the upper limit of the "on" portion of the wave can be set.
-
----
 
 ### Waveform
 Controls the waveform of the LFO, covering: Ramp Up, Ramp Down, Square, Triangel, Sine, Sweep, Random Levels and Random Slopes.
