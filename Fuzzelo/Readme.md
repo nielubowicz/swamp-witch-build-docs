@@ -2,7 +2,7 @@
 
 ![Betsy the Buggalo](https://gamepedia.cursecdn.com/futuramaworldsoftomorrow_gamepedia_en/8/8a/Mission_The_Buggalo_Bond.png?version=6296effb747ab478a2fd876bd3014b79) 
 
-The `Fuzzelo` is an MXR Dist+-based tremolo pedal, with the distortion knob replaced by an LFO-varied resistor. The LFO circuit uses the [StompLFO chip](https://electricdruid.net/datasheets/STOMPLFODatasheet.pdf) from [Electric Druid](https://electricdruid.net/product/stomplfo/). 
+The `Fuzzelo` is an MXR Dist+-based tremolo pedal, with the distortion knob replaced by an LFO-varied resistor. The LFO circuit uses the [StompLFO chip](https://electricdruid.net/datasheets/STOMPLFODatasheet.pdf) from [Electric Druid](https://electricdruid.net/product/stomplfo/). It runs on 9V center-negative power, and draws less than 50mA of current.
 
 ## Controls
 ### Volume 
