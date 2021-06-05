@@ -8,14 +8,11 @@ There are three switches on the Season of the Witch as well: one for changing th
 
 When your signal combines with the Control Signal, the results can be otherworldly. Subtle variation of the Control Siganl produces warm, wavering sounds, much like a chorus pedal. Less than subtle variation produces wild, pitch-shifting, potentially-arpeggiated noises: changing the variation from gentle to almost unrecognizable.
 
+---
 
 ## Controls
 
----
-
 ## Pedal Controls	
-
----
 
 ### Boost
 Controls the amount of gain provided to the output of the blended signal. The boost is a transparent MOSFET boost inspired by the [AMZ Booster](http://www.muzique.com/schem/mosfet.htm). Maximum gain is nearly 40 dB, so use this wisely!
@@ -38,8 +35,6 @@ Internally, there is a trimmer for the chaos avaiable in the `Repeats` knob. Tur
 ---
 
 ## Control-Signal controls
-
----
 
 ### Depth
 Controls the maximum delay time - the maximum swing of the control signal.
