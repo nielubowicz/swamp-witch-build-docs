@@ -8,10 +8,15 @@ There are three switches on the Season of the Witch as well: one for changing th
 
 When your signal combines with the Control Signal, the results can be otherworldly. Subtle variation of the Control Siganl produces warm, wavering sounds, much like a chorus pedal. Less than subtle variation produces wild, pitch-shifting, potentially-arpeggiated noises: changing the variation from gentle to almost unrecognizable.
 
----
 
 ## Controls
+
+---
+
 ## Pedal Controls	
+
+---
+
 ### Boost
 Controls the amount of gain provided to the output of the blended signal. The boost is a transparent MOSFET boost inspired by the [AMZ Booster](http://www.muzique.com/schem/mosfet.htm). Maximum gain is nearly 40 dB, so use this wisely!
 
@@ -30,7 +35,12 @@ Controls the amount of repeats in the signal. The pedal is capable of self-oscil
 #### Chaos
 Internally, there is a trimmer for the chaos avaiable in the `Repeats` knob. Turn it up to allow for easier self-oscillation, turn it down to avoid it altogether.
 
-### Control-Signal controls
+---
+
+## Control-Signal controls
+
+---
+
 ### Depth
 Controls the maximum delay time - the maximum swing of the control signal.
 
@@ -48,9 +58,11 @@ Controls the waveform of the LFO, covering: Ramp Up, Ramp Down, Square, Triangel
 
 > **NOTE**: The `Rate` and `Waveform`  options only affect the LFO control, not the expression or CV control signals.
 
----
-
 ## Working with the Control Signals
+
+You may have noticed that there are three Control signal options, but only one plug! The LFO is internal to the Season of the Witch, while both the Expression and CV share the same TRS jack. Expression pedals are expected to use a TRS cable as a voltage divider (therefore, a TS cable will not work appropriately) -- as an added benefit, the value of your expression pedal is irrelevant, so the Season of the Witch ought to be compatible with any-value TRS expression. CV sources are expected to provide a 0-5V signal over a TS cable (internal voltage is provided on the Ring of the TRS and may damage a TRS CV source!!).
+
+With no controls plugged in, the LFO is the working Control Signal. Plugging any cable (TS or TRS) into the CV/Expression jack will cut-off the LFO signal and use whatever Control Signal is coming through the CV/Expression jack.
 
 ### LFO
 There is a lot of variation within the LFO control. Not only do the 8 waveforms offer very different sounds for modulating, but each of the `Rate`, `Depth` and `Offset` controls can change the entire soudn with subtle variation. 
