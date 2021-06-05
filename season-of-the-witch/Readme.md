@@ -53,6 +53,8 @@ Controls the waveform of the LFO, covering: Ramp Up, Ramp Down, Square, Triangel
 
 > **NOTE**: The `Rate` and `Waveform`  options only affect the LFO control, not the expression or CV control signals.
 
+--- 
+
 ## Working with the Control Signals
 
 You may have noticed that there are three Control signal options, but only one plug! The LFO is internal to the Season of the Witch, while both the Expression and CV share the same TRS jack. Expression pedals are expected to use a TRS cable as a voltage divider (therefore, a TS cable will not work appropriately) -- as an added benefit, the value of your expression pedal is irrelevant, so the Season of the Witch ought to be compatible with any-value TRS expression. CV sources are expected to provide a 0-5V signal over a TS cable (internal voltage is provided on the Ring of the TRS and may damage a TRS CV source!!).
