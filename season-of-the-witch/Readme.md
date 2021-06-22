@@ -72,4 +72,23 @@ For best use of the CV control, the advice under `Expression` setting works as w
 
 Interestingly, even within the variation there is still variation (#dune2021: plots within plots). For example, an "unusably seasick" wobble in delay time at a lower rate setting, can become a gooey, warm vibrato at higher `Rate` settings with enough dry signal `Blend`ed in.
 
-## Uses and Common Settings
+
+## Frequently Asked Questions // Trouble-shooting
+
+> My Season of the Witch does (not) self-oscillate, and I do (not) want it to!
+
+See the section about the `CHAOS` trimmer. Remove the four screws from the backplate and gaze upon the wonders inside. Adjusting either of the trimpots works best when you can keep some active loop or sound coming through the pedal. Turn the `REPEATS` knob up all the way, play your loop, and adjust the `CHAOS` trimmer until you reach your desired maximum feedback level (turn left for less feedback, right for more feedback).
+
+> My Season of the Witch does (not) make dying computer noises, and I do (not) want it to!
+
+See the section about the `DELAY` trimmer. Remove the four screws from the backplate and gaze upon the wonders inside. Adjusting either of the trimpots works best when you can keep some active loop or sound coming through the pedal. Make sure delay modulation is ON and there is nothing plugged into the CV/Expression jack. Turn the `DEPTH` knob all the way down, and the `OFFSET` knob all the way up. Now, with your loop playing, adjust the `DELAY` trimmer until the maximum _Will It Blend?!_ sounds come from your pedal (turn left for less dying computer noise // less modulation, right for more harp-in-a-coffee-grinder effects).
+
+> This pedal's broken!
+
+It's (probably) not broken. There are a few things that can cause a Season of the Witch to appear deceased, and we'll talk about them here. The first is an overloading of the delay chip inside the Season of the Witch. There are a lot of degrees of freedom on this pedal, and some of those can (temporarily) kill the PT2399. The first thing to verify is that only the delay is affected: play through the pedal with the blend fully dry to ensure there is stil sound coming through. If not, please stop here, check your power supply, and then contact me on Instagram at @swampwitchpedals or via email at swampwitchpedals@gmail.com!
+
+If there is sound coming through with the `BLEND` set to fully dry, but nothing fully wet, we need to get your PT2399 back online. If using modulation, turn the `DEPTH` knob all the way down, and then vary the `OFFSET` knob (I'm assuming you'll need to turn it down!). There should be a point when the delay chip kicks back on. It will sound like a bit like a horde of robotic crickets has decided to get drunk and then replay the last note you played. Do not be alarmed. Assuming you would not like this behavior to continue, please see the above question about the `DELAY` trimmer.
+
+If all else fails, you're reading this on the internet, so I have to say: _Hello, this is IT - have you tried turning it off and on again?_. If it's still not working, please stop here, check your power supply, and then contact me on Instagram at @swampwitchpedals or via email at swampwitchpedals@gmail.com!
+
+
