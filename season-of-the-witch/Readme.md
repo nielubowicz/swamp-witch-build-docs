@@ -26,11 +26,20 @@ Controls the delay time. The pedal is capable of self-oscillation at higher sett
 #### Delay Trimmer
 Internally, there is a trimmer for how far the delay signal can be controlled. Turn this _up_ for lower amounts of change in the delay time, and _down_ for more swing. **NOTE: If your delay signal dies, start here!**
 
-### Repeats
-Controls the amount of repeats in the signal. The pedal is capable of self-oscillation at higher settings (depending on the `Chaos` setting).
+### Delay Modulation Switch
+When flipped on, removes control of the delay time from the `Delay` pot and transfers control entirely to the `Control Signal`. When flipped off, the delay time is controlled entirely by the `Delay` pot.
+
+### Feedback
+Controls the amount of feedback (number of repeats) in the signal. The pedal is capable of self-oscillation at higher settings (depending on the `Chaos` setting).
+
+### Feedback Modulation Switch
+When flipped on, removes control of the feedback/repeats from the `Feedback` pot and transfers control entirely to the `Control Signal`. When flipped off, the feedback is controlled entirely by the `Feedback` pot.
 
 #### Chaos
 Internally, there is a trimmer for the chaos avaiable in the `Repeats` knob. Turn it up to allow for easier self-oscillation, turn it down to avoid it altogether.
+
+### Phase Modulation Switch
+This switch controls the phase of the Feedback modulation with respect to the Delay modulation -- that is, when they are In-phase, a high control signal (bright LED) pairs long delays with lots of feedback, and when they are out of phase, a low control signal (dim LED) pairs short delays with lots of feedback. Another way to think about: In-phase is sound avalance, and Out-of-phase is space laser sounds.
 
 ---
 
@@ -44,6 +53,9 @@ Controls the minimum delay time.
 
 > **NOTE**: `Offset` and `Depth` are interactive. They can be thought of as floor and ceiling for LED-brightness for the control signal, as well. By raising the offset, the lower limit of the "off" section of the wave can be raised. By lowering the depth, the upper limit of the "on" portion of the wave can be set.
 
+---
+### LFO-only Controls
+
 ### Rate
 Controls the rate (frequency) of the LFO. The StompLFO provides rates from as slow as 20 s up to 40 ms (38 BPM to 1500 BPM, or 0.05 Hz to 25.6Hz).
 
@@ -52,6 +64,9 @@ Controls the waveform of the LFO, covering: Ramp Up, Ramp Down, Square, Triangel
 ![Waveforms Ramp Up, Ramp Down, Square, Triangel, Sine, Sweep, Random Levels and Random Slopes](waveforms.png)
 
 > **NOTE**: The `Rate` and `Waveform`  options only affect the LFO control, not the expression or CV control signals.
+
+### Tap Tempo
+The footswitch on the right side of the Season of the Witch is a tap-tempo switch for the LFO. Note, this tap/interval does NOT correspond to the delay-time.
 
 --- 
 
@@ -71,6 +86,16 @@ For best use of the expression control, I advise picking your heel and toe setti
 For best use of the CV control, the advice under `Expression` setting works as well: be sure you understand your minimum and maximum positions and how these affect the delay time and feedback. 
 
 Interestingly, even within the variation there is still variation (#dune2021: plots within plots). For example, an "unusably seasick" wobble in delay time at a lower rate setting, can become a gooey, warm vibrato at higher `Rate` settings with enough dry signal `Blend`ed in.
+
+## Useful Settings
+
+Let's face it. There are so many controls on this pedal, and each one opens a world of new sounds. It's normal to be a little confused or overwhelmed. I highly recommend picking a single setting and changing it over its range to get a sense of how flexible this pedal is. 
+
+### Useful Setting 1
+### Useful Setting 2
+### Useful Setting 3
+### Useful Setting 4
+
 
 
 ## Frequently Asked Questions // Trouble-shooting
