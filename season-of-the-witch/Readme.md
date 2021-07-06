@@ -40,6 +40,7 @@ Internally, there is a trimmer for the chaos avaiable in the `Feedback` knob. Tu
 
 ### Phase Modulation Switch
 This switch controls the phase of the Feedback modulation with respect to the Delay modulation -- that is, when they are In-phase, a high control signal (bright LED) pairs long delays with lots of feedback, and when they are out of phase, a low control signal (dim LED) pairs short delays with lots of feedback. Another way to think about: In-phase is sound avalance, and Out-of-phase is space laser sounds.
+**NOTE: This setting is only effective when `Feedback` modulation is switched `On`.**
 
 ---
 
