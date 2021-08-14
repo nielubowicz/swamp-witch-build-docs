@@ -69,4 +69,20 @@ No clipping diodes are added to create this crunch; it occurs naturally
 | J8 | "JI  I  G  S  O  JO" | 3pdt Footswitch connector - Jack In/PCB in/Ground/Switch/PCB Out/Jack Out |
 
 
-
+# Assembly Instructions
+1. Gather all necessary parts and tools.
+2. Populate parts. Start with short components and work up to taller ones.
+2. a. Resistors
+2. b. Power protection diode (PD1)
+2. c. Film and MLCC (yellow ceramic) capacitors
+2. d. Electrolytic capacitors
+2. e. Transistors 
+3. Board wires, including 6-wire ribbon cable
+4. Drill enclosure
+5. Add potentiometers and LED to the backside of the PCB, fit into the enclosure, and secure with washers and nuts.
+5. b. Solder the mounted components in place.
+6. Add power jack and input/output jacks, mount to enclosure.
+7. Install footswitch into its daughterboard PCB (arrows should indicate direction of throw)
+8. Solder ribbon cable to daughterboard, install footswitch into enclosure and secure with hardware.
+9. Install backplate
+10. Rock out.
