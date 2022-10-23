@@ -1,10 +1,10 @@
 # Season of the Witch
 
-The `Season of the Witch` is, at its core, a modulating digital delay pedal. The modulation can be accomplished via an LFO circuit, which uses the [StompLFO chip](https://electricdruid.net/datasheets/STOMPLFODatasheet.pdf) from [Electric Druid](https://electricdruid.net/product/stomplfo/), a TRS-capable expression pedal, or a 0-5V TS CV signal. The digital delay is driven by the [PT2399](https://www.electrosmash.com/pt2399-analysis), a common short-range delay chip. The range of usable delay times is approximately 35ms to ~500ms. Longer delay times are possible, but signal degradation is guaranteed beyond this range. Of course, if you were looking for normal-signal delay pedal, you probably would have bought a different one! 
+The `Season of the Witch` is, at its core, a modulating digital delay pedal. The modulation can be accomplished via an LFO circuit, which uses the [StompLFO chip](https://electricdruid.net/datasheets/STOMPLFODatasheet.pdf) from [Electric Druid](https://electricdruid.net/product/stomplfo/), a TRS-capable expression pedal, or a 0-5V TS CV signal. The digital delay is driven by the [PT2399](https://www.electrosmash.com/pt2399-analysis), a common short-range delay chip. The range of usable delay times is approximately 35ms to ~500ms. Longer delay times are possible, but signal degradation is guaranteed beyond this range. Of course, if you were looking for normal-signal delay pedal, you probably wouldn't be here! The `Season of the Witch` is also so much more than a modulated delay: it is a space-time manipulator, a seasick harmony machine, an ambient movie soundtrack generator, and a shoegaze tone factory all in one. 
 
-The pedal includes standard delay controls: dry/wet `Blend`, amount of `Feedback` in the signal, the `Delay` time,  and a transparent `Boost` to add a little more body and drive to the signal, as well as two internal trimmers. Turn down the`Chaos` trimmer control to reign in or let loose the `Feedback`. The `Delay` internal trimmer controls how far the delay chip will be pushed: if you want dying computer noises, turn this setting _down_. Be warned, however, if the control signal goes too low, the delay chip will shut off completely. It also includes controls for the Modulating signal, which will be discussed in depth later: `Rate`, `Waveform` selection, and `Offset` and `Depth` controls for fine-tuned wave control.
+The pedal includes standard delay controls: dry/wet `Blend`, amount of `Feedback` in the signal, the `Delay` time,  and a transparent `Boost` to add a little more body and drive to the signal, as well as two internal trimmers. Turn down the`Chaos` trimmer control to reign in or let loose the `Feedback`. The `Delay` internal trimmer controls how far the delay chip will be pushed: if you want dying computer noises, turn this setting _down_. Be warned, however, if the control signal goes too low, the delay chip will shut off completely. It also includes controls for the Control Signal, which will be discussed in depth later: `Rate`, `Waveform` selection, and `Offset` and `Depth` controls for fine-tuned wave control (_"Control Signal"_ is any of the three types of available contorl: internal LFO, external TRS expression pedal, or 0-5V CV generator).
 
-There are three switches on the Season of the Witch as well: one for changing the delay time with the Control Signal, one for changing the amount of feedback with the Control Signal, and finally a phase switch for the feedback modulation -- in-phase, long delay times are paired with lots of feedback, and out-of-phase, short delay times are paired with lots of feedback.
+There are three switches on the Season of the Witch as well: one for changing the delay time with the Control Signal, one for changing the amount of feedback with the Control Signal, and finally a phase switch for the feedback modulation -- _in-phase, long delay times are paired with lots of feedback, and out-of-phase, short delay times are paired with lots of feedback_.
 
 When your signal combines with the Control Signal, the results can be otherworldly. Subtle variation of the Control Siganl produces warm, wavering sounds, much like a chorus pedal. Less than subtle variation produces wild, pitch-shifting, potentially-arpeggiated noises: changing the variation from gentle to almost unrecognizable.
 
@@ -45,7 +45,8 @@ This switch controls the phase of the Feedback modulation with respect to the De
 ---
 
 ## Control-Signal controls
-> **NOTE:** _"Control Signal"_ is the source of the modulation, and can be the internal LFO, an external Expression pedal or a CV (0-5V) generator.
+
+These two settings work with all forms of modulation: internal LFO, external TRS Expression pedal, or 0-5V CV generator.
 
 ### Depth
 Controls the maximum delay time - the maximum swing of the control signal.
@@ -57,6 +58,8 @@ Controls the minimum delay time.
 
 ---
 ### LFO-only Controls
+
+These two settings only affect the internal LFO.
 
 ### Rate
 Controls the rate (frequency) of the LFO. The StompLFO provides rates from as slow as 20 s up to 40 ms (38 BPM to 1500 BPM, or 0.05 Hz to 25.6Hz).
