@@ -40,11 +40,12 @@ Internally, there is a trimmer for the chaos avaiable in the `Feedback` knob. Tu
 
 ### Phase Modulation Switch
 This switch controls the phase of the Feedback modulation with respect to the Delay modulation -- that is, when they are In-phase, a high control signal (bright LED) pairs long delays with lots of feedback, and when they are out of phase, a low control signal (dim LED) pairs short delays with lots of feedback. Another way to think about: In-phase is sound avalance, and Out-of-phase is space laser sounds.
-**NOTE: This setting is only effective when `Feedback` modulation is switched `On`.**
+> **NOTE:** This setting is only effective when `Feedback` modulation is switched `On`.
 
 ---
 
 ## Control-Signal controls
+> **NOTE:** _"Control Signal"_ is the source of the modulation, and can be the internal LFO, an external Expression pedal or a CV (0-5V) generator.
 
 ### Depth
 Controls the maximum delay time - the maximum swing of the control signal.
@@ -113,7 +114,7 @@ See the section about the `DELAY` trimmer. Remove the four screws from the backp
 
 It's (probably) not broken. There are a few things that can cause a Season of the Witch to appear deceased, and we'll talk about them here. The first is an overloading of the delay chip inside the Season of the Witch. There are a lot of degrees of freedom on this pedal, and some of those can (temporarily) kill the PT2399. The first thing to verify is that only the delay is affected: play through the pedal with the blend fully dry to ensure there is stil sound coming through. If not, please stop here, check your power supply, and then contact me on Instagram at @swampwitchpedals or via email at swampwitchpedals@gmail.com!
 
-If there is sound coming through with the `BLEND` set to fully dry, but nothing fully wet, we need to get your PT2399 back online. If using modulation, turn the `DEPTH` knob all the way down, and then vary the `OFFSET` knob (I'm assuming you'll need to turn it down!). There should be a point when the delay chip kicks back on. It will sound like a bit like a horde of robotic crickets has decided to get drunk and then replay the last note you played. Do not be alarmed. Assuming you would not like this behavior to continue, please see the above question about the `DELAY` trimmer.
+If there is sound coming through with the `BLEND` set to fully dry, but nothing fully wet, we need to get your PT2399 back online. If using modulation, turn the `DEPTH` knob all the way down, and then vary the `OFFSET` knob (I'm assuming you'll need to turn it down!). There should be a point when the delay chip kicks back on. It will sound a bit like a horde of robotic crickets has decided to get drunk and then replay the last note you played. Do not be alarmed. Assuming you would not like this behavior to continue, please see the above question about the `DELAY` trimmer.
 
 If all else fails, you're reading this on the internet, so I have to say: _Hello, this is IT - have you tried turning it off and on again?_. If it's still not working, please stop here, check your power supply, and then contact me on Instagram at @swampwitchpedals or via email at swampwitchpedals@gmail.com!
 
